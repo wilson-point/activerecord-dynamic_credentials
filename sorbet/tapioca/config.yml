@@ -1,0 +1,22 @@
+gem:
+  # Add your `gem` command parameters here:
+  #
+  # exclude:
+  # - gem_name
+  # doc: true
+  # workers: 5
+  typed_overrides:
+    activerecord: ignore
+    activemodel: ignore
+    activesupport: ignore
+dsl:
+  # Add your `dsl` command parameters here:
+  #
+  # exclude:
+  # - SomeGeneratorName
+  # workers: 5
+annotations:
+  typed_overrides:
+    activemodel: ignore
+    activerecord: ignore
+    activesupport: ignore
